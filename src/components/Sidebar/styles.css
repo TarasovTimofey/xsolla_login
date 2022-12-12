@@ -1,0 +1,20 @@
+.sidebar {
+  display: block;
+  width: 200px;
+  background-color: rgb(247, 250, 255);
+}
+
+select {
+  margin-top: 10px;
+  border-radius: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+}
+
+select:focus {
+  border: none;
+  border-radius: 0pt;
+  box-shadow: 0 0 0 1pt #337bf3;
+  outline: none;
+}
